@@ -1,9 +1,9 @@
-serverAddr = "8.163.10.241"
+serverAddr = "121.40.44.224"
 serverPort = 7000
 
 [[proxies]]
 name = "test-tcp"
 type = "tcp"
 localIP = "localhost"
-localPort = 8080
-remotePort = 8081
+localPort = 44300
+remotePort = 44301
