@@ -121,7 +121,7 @@ case $MODE in
         echo "  - MySQL (3306) -> ${SERVER_URL%%:*}:23306"
         echo ""
         CMD="./chisel client --auth '${AUTH}' --keepalive ${KEEPALIVE} '${SERVER_URL}' \
-  R:0.0.0.0:20022:127.0.0.1:22 \
+  R:0.0.0.0:44300:127.0.0.1:25569 \
   R:0.0.0.0:28080:127.0.0.1:8080 \
   R:0.0.0.0:23306:127.0.0.1:3306"
         ;;
